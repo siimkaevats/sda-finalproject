@@ -1,9 +1,8 @@
 # Final-Project
-Final project for python remote group 11
 
 Todo    Indevelopment   Review  Testing  Done
 
-#Development Tickets:
+Development Tickets (alternative: Jira)
 
 #UI:
 * 1.00 Create the index page background, header and the project name - 8h
@@ -12,6 +11,7 @@ Todo    Indevelopment   Review  Testing  Done
 * 1.03 Add the submit button and align it correctly - 3h
 * 1.04 Properly formatting of the result body within the guide page - 8h
 * 1.05 Add hamburger button to the guide header, it should be clickable, and we should be able to see "home" link - 8h
+
 #APP LOGIC:
 * 1.06 Add logic for removing punctuations - 8h
 * 1.07 Add logic to convert text to upper case and lower case - 8h
