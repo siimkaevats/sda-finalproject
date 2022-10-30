@@ -4,7 +4,7 @@ Todo    Indevelopment   Review  Testing  Done
 
 Development Tickets (alternative: Jira)
 
-#UI:
+# UI:
 * 1.00 Create the index page background, header and the project name - 8h
 * 1.01 Add the text area into the index page - 5h
 * 1.02 Create the toggle buttons for the index page - 8h
@@ -12,7 +12,7 @@ Development Tickets (alternative: Jira)
 * 1.04 Properly formatting of the result body within the guide page - 8h
 * 1.05 Add hamburger button to the guide header, it should be clickable, and we should be able to see "home" link - 8h
 
-#APP LOGIC:
+# APP LOGIC:
 * 1.06 Add logic for removing punctuations - 8h
 * 1.07 Add logic to convert text to upper case and lower case - 8h
 * 1.08 Add logic to remove new line from text - 8h
