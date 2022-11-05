@@ -6,13 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="8c207f69-71ca-4baa-b79e-1d059946194a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/smartapp/smartapp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartapp/smartapp/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <favorite-branches>
@@ -44,12 +56,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/pycharm/pythonbackend11-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/django" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kasutaja\Documents\GitHub\sda-finalproject\smartapp\index" />
       <recent name="C:\Users\Kasutaja\Documents\GitHub\Final-Project\prototype" />
     </key>
   </component>
