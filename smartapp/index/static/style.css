@@ -1,0 +1,20 @@
+div input{
+    display : none;
+}
+div label{
+  position:relative;
+  display:block;
+  width:100px;
+  height:50px;
+  border-radius:20px;
+  cursor:pointer;
+  transition:background 300ms linear;
+}
+div label:before{
+    content:"";
+    display : block
+    width : 50px
+    background : #eee;
+    border-radius : 50%
+
+}
