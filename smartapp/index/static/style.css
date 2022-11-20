@@ -16,5 +16,27 @@ div label:before{
     width : 50px
     background : #eee;
     border-radius : 50%
+}
 
+.toggle-button:checked::after {
+    left: 70%
+}
+
+.submit {
+    display: block;
+    margin-left: 320px;
+    margin-right: auto;
+    margin-top: 10px;
+    align: center;
+    background-color: #00bf72;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #696969
 }
