@@ -112,9 +112,23 @@ def analyze(request):
         params = {'purpose': 'SpellCheck', 'analyzed_text': blob.correct()}
         analyzed
 
+    if (removestopwords == "on"):
+        analyzed = ""
+        stop_words = set(stopwords.words('english'))
+        word_tokens = word_tokenize(analyzed)
+
+        filtered_sentence = [w for w in word_tokens if not w.lower() in stop_words]
+
+        for w in word_tokens:
+            if w not in stop_words:
+                filtered_sentence.append(w)
+
+        params = {'purpose': 'StopWords', 'analyzed_text': stopwords.words('english')}
+        analyzed
+
     if (generatesummary == "on"):
         analyzed = ""
-        userLink = input("https://en.wikipedia.org/wiki/Starbucks")
+        userLink = input("https://en.wikipedia.org")
         raw_data = urllib.request.urlopen(userLink)
         document = raw_data.read()
 
@@ -167,7 +181,7 @@ def analyze(request):
         # text_summary = ' '.join(selected_sentences)
         # print(text_summary)
 
-        params = {' '.join(selected_sentences)}
+        params = {'purpose': ' '.join(selected_sentences)}
         analyzed
 
     if(removepunc != "on" and newlineremover!="on" and extraspaceremover!="on" and fullcaps!="on" and lowercase!="on" and countcharacters!="on" and spellcheck!="on" and generatesummary!="on" and removestopwords!="on"):
