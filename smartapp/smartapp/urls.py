@@ -1,7 +1,10 @@
+
+
+# Urls.py
 """smartapp URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.1/topics/http/urls/
+    https://docs.djangoproject.com/en/2.1/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -15,10 +18,38 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from . import views
 
-from index.views import comingsoon
+from django.urls import path
+from . import views
+from django.conf import settings
+from django.conf.urls.static import static
 
+from textblob import TextBlob
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+import numpy as np
+import nltk
+
+from nltk.cluster.util import cosine_distance
+import networkx as nx
+
+import wikipedia
+
+from nltk.tokenize import word_tokenize, sent_tokenize
+
+# Code for video 6
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('', views.index, name='index'),
+#     path('about/', views.about, name='about'),
+#
+# ]
+
+# Code for video 7
 urlpatterns = [
-    path('', comingsoon),
-
+    path('admin/', admin.site.urls),
+    path('', views.index, name='index'),
+    path('analyze', views.analyze, name='analyze'),
 ]
